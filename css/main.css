@@ -1,0 +1,81 @@
+html, body {
+    height:100%;
+}
+
+select#lang option[value="UA"] {
+    background-image:url(../img/Ukr.png); 
+}
+select#lang option[value="ENG"] {
+    background-image:url(../img/USA.png); 
+}
+
+.back{
+    background-image: url('../img/Business.png');
+    height: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 70%;
+}
+.form-cust{
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding: 15px;
+    box-shadow: 10px 5px 5px #000;
+    border-radius: 5px;
+}
+.card-cust{
+    margin-top: 20px;
+/*    padding-left: 10px;*/
+}
+
+.list-group-item{
+    font-size: 13px;
+    line-height: 13px;
+     
+}
+hr{
+    margin: 8px;
+}
+.hr-gray{
+    color:dimgray;
+}
+
+.row-cust{
+    padding-left: 24px;
+}
+.btn-cust{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.a-cust{
+    margin-left: 10px;
+}
+   
+.cont{
+    width: 200px;
+}
+
+.marg{
+    margin-top:30px;
+}
+.cl{
+    padding-left:0;
+}
+.header-cust{
+    height: 30px;
+}
+.row-mr-top{
+    margin-top:12px;
+}
+#cardNumber{
+    height: 44px;
+    padding-top: 14px;
+}
+.round{
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+}

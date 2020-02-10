@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href='css/bootstrap.min.css'>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Transaction</title>
+</head>
+<body>
+<!--Side Profile-->
+<div class="row h-100">
+    <div class="flex-column col-3  align-items-center bg-light ">
+    <div class="row d-flex justify-content-center">
+          <div class="col-4" id="profile">
+            <img src="img/profile.png" width="50" height="50" alt="profile">
+           </div>
+      </div>
+      <hr class="hr-gray">
+      <div class="row d-flex row-cust row-mr-top">
+          <div class="col-4 " id="name">
+                <img src="img/name.png" width="24" height="24" alt="profile">
+                Petro
+           </div>
+           <div class="col" id="surname">
+               Ivanov
+           </div>
+      </div>
+      <div class="row row-cust  row-mr-top">
+          <div class="col" id="phoneNumber">
+                <img src="img/phone.png" width="24" height="24" alt="profile">
+                (+380)954100004
+           </div>
+      </div>
+      <div class="row row-cust row-mr-top">
+          <div class="col" id="email">
+                <img src="img/mail.png" width="24" height="24"  alt="profile">
+            petroIvanov@gmail.com
+            </div>
+      </div>
+      <div class="row">
+          <div class="col"></div>
+      </div>
+    </div>
+    <div class="col">
+<!--Header-->
+    <div class="row bg-light header-cust">
+        </div>
+        <div class="row h-75 justify-content-center align-items-center">
+           <div class="col-7">
+        <div class="tab-content" id="pills-tabContent">
+<!--New card-->
+                      <div class="card card-cust">
+                            <h6 class="card-header">New Transaction</h6>
+                            <div class="row row-cust d-flex align-items-center">
+                                <div class="col-4 ">Card number: </div>
+                                <div class="col-6" id="cardNumber"> 4149423849903479
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row row-cust d-flex align-items-center">
+                                <div class="col-4 ">Purpose: </div>
+                                <div class="col-6" >
+                                    <input type="text" class="form-control" id="purpose"  placeholder="Enter purpose" value="">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row row-cust d-flex align-items-center">
+                                <div class="col-4">Transfer sum: </div>
+                                <div class="col-6">
+                                    <input type="text" class="form-control" id="transactionSum"  placeholder="Enter the transfer sum" value="">
+                                </div>
+                            </div>
+                           
+                            <hr>
+<!--Alerts. Changhe collapse to collapse.show to see the alerts-->
+                            <div class="alert alert-success collapse" role="alert" id="success">
+                              Transaction is successfull!
+                            </div>
+                            <div class="alert alert-danger collapse" role="alert" id="error">
+                              Error! Try again.
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-4">
+                                    <a href="#" class="btn btn-primary btn-cust">Submit</a>
+                                </div>
+                            </div>
+                        </div>
+              <!--Card ends here ^-->           
+
+            </div>
+        </div>
+     </div>
+        
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
