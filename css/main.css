@@ -1,4 +1,4 @@
-html, body {
+html, body, .container-fluid, .container{
     height:100%;
 }
 
@@ -27,6 +27,7 @@ select#lang option[value="ENG"] {
 }
 .card-cust{
     margin-top: 20px;
+    margin-bottom: 30px;
 /*    padding-left: 10px;*/
 }
 
@@ -59,6 +60,7 @@ hr{
 
 .marg{
     margin-top:30px;
+    margin-bottom: 10px;
 }
 .cl{
     padding-left:0;
@@ -78,4 +80,12 @@ hr{
     width: 50px;
     font-size: 20px;
     border-radius: 30px;
+}
+.row-bott{
+/*
+    margin-top: 30px;
+    position:absolute;
+*/
+bottom:0;
+    margin: 20px;
 }
